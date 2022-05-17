@@ -5,3 +5,4 @@ Task 3 display current directory content in a long format
 Task 4 display a long list of directory content, including hidden files
 Task 5 display numerically directory content-including hidden files
 Task 6 create a new directory in the /tmp/ directory
+Task 7 move the file betty from /tmp/ to /tmp/my_first_directory
