@@ -10,3 +10,4 @@ Task 8 delete Betty from /tmp/my_first_directory
 Task 9 delete my_first_directory from /tmp dir
 Task 10 change the current working directory for the previous one
 Task 11 list all files in pwd, parent's of pwd and boot dir, in long format with hidden files also
+Task 12 prints the type of file
