@@ -8,3 +8,4 @@ Task 6 create a new directory in the /tmp/ directory
 Task 7 move the file betty from /tmp/ to /tmp/my_first_directory
 Task 8 delete Betty from /tmp/my_first_directory
 Task 9 delete my_first_directory from /tmp dir
+Task 10 change the current working directory for the previous one
