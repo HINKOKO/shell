@@ -13,4 +13,4 @@ Task 11 list all files in pwd, parent's of pwd and boot dir, in long format with
 Task 12 prints the type of file
 Task 13 create a symbolic link to //bin///ls
 Task 14 copies all html files to the parent directory, with update option, that is to say only newer files or non-existing files will be copy
-
+Task 15 moves all files beginning with an uppercase to /tmp/u directory
