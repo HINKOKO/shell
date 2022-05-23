@@ -7,3 +7,4 @@ Script 5 adds execute permissions for the owner of file hello
 adding execution permission to the owner and group owner, and readpermission to the other
 Script 7 adds execution permission to the owner, group owner and others users
 Script 8 sets the permissions this way:only other users have all permissions
+Script 9 sets permisssion mode offile hello to rwxr-x-wx
