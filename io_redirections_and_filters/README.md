@@ -6,3 +6,4 @@ Task 4 display the last 10 lines
 Script 5 display the first 10 lines
 Script 6 displays the thirs line of file iacta
 Script 7 creates a weird named file containing specified text in the command echo
+Script 8 writes into a fil the result of the longlist command
