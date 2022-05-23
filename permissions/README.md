@@ -12,3 +12,4 @@ Script 10 takes permissions in mirror mode with --reference option = filereferen
 Task 11 add execute permission to all subdirectories of the current directory
 Script 12 creates a my_dir directory with permissions in one command using -m option
 Script 13 change the group owner for the file hello as school for owner
+Script 14 changes the owner to vincent and group owner to staff for all files and directories in pwd
