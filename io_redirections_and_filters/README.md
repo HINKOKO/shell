@@ -5,3 +5,4 @@ Task 3 display the content of two dirs
 Task 4 display the last 10 lines 
 Script 5 display the first 10 lines
 Script 6 displays the thirs line of file iacta
+Script 7 creates a weird named file containing specified text in the command echo
