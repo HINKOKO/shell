@@ -4,3 +4,4 @@ script 2 prints all the groups the current user is part of
 Task 3 changes the owner of file hello to betty
 Script 4 creates an empty file called hello
 Script 5 adds execute permissions for the owner of file hello
+adding execution permission to the owner and group owner, and readpermission to the other
