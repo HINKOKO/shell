@@ -9,3 +9,4 @@ Script 7 creates a weird named file containing specified text in the command ech
 Script 8 writes into a fil the result of the longlist command
 Script 9 duplicate last line of file iacta
 Script 10 remove all .js regular files in curent directory and all subdir
+Script 11 counts the number of directories and sub-dir in the current working dir
