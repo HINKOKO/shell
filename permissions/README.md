@@ -10,3 +10,4 @@ Script 8 sets the permissions this way:only other users have all permissions
 Script 9 sets permisssion mode offile hello to rwxr-x-wx
 Script 10 takes permissions in mirror mode with --reference option = filereference to file desired
 Task 11 add execute permission to all subdirectories of the current directory
+Script 12 creates a my_dir directory with permissions in one command using -m option
