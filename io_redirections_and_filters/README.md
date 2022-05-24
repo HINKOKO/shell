@@ -15,3 +15,4 @@ Script 13 prints only words that appear exactly once
 Script 14 display lines containing the pattern "root" from a file
 Script 15 display the number of lines that contains a specified pattern
 Script 16 display lines containing a pattern and 3 lines after them
+Script 17 display all the lines in file that DO NOT contain the pattern after \-v option
