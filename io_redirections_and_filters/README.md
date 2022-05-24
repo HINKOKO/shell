@@ -18,3 +18,4 @@ Script 16 display lines containing a pattern and 3 lines after them
 Script 17 display all the lines in file that DO NOT contain the pattern after \-v option
 Script 18 display all lines of the file starting with a lleter, uppercase also
 Script 19 replace all A and c from input to Z and e
+Script 20 removes all c and C letters from input
