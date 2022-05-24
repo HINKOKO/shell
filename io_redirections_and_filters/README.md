@@ -10,3 +10,4 @@ Script 8 writes into a fil the result of the longlist command
 Script 9 duplicate last line of file iacta
 Script 10 remove all .js regular files in curent directory and all subdir
 Script 11 counts the number of directories and sub-dir in the current working dir
+Script 12 displays the 10 newest files in current directory
