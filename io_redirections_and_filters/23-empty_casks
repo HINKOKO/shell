@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find . -empty | cat
+ls -laR | find . -empty | cut -f 1 -d '.'
