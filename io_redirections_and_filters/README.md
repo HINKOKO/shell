@@ -20,3 +20,4 @@ Script 18 display all lines of the file starting with a lleter, uppercase also
 Script 19 replace all A and c from input to Z and e
 Script 20 removes all c and C letters from input
 Task 21 reverse esreveR the input
+Script 22 displays all users and their home directories, sorted by users
