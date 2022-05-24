@@ -13,3 +13,4 @@ Script 11 counts the number of directories and sub-dir in the current working di
 Script 12 displays the 10 newest files in current directory
 Script 13 prints only words that appear exactly once
 Script 14 display lines containing the pattern "root" from a file
+Script 15 display the number of lines that contains a specified pattern
