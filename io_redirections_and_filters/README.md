@@ -23,3 +23,4 @@ Task 21 reverse esreveR the input
 Script 22 displays all users and their home directories, sorted by users
 Script 23 finds all empty files and directories in current and all subdir
 Task 24 list all files with a gif extension , sorted by bytes values, but case insensitive!
+Script 25 decodes acrostic poem
