@@ -11,3 +11,4 @@ script 9 prints the result of POWER divided by DIVIDE, which are environments va
 Script 10 displays the result of BREATH to the power of LOVE
 Script 11 converts a number base 2 to number base 10
 Script 12 prints all possible combinations of two letters, oo was removed
+script 13 prints a number with two decimal places
