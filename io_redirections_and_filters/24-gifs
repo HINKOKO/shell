@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type f -name "*.gif" | cut -f 1 -d "/" | tr id ".gif" | sort 
+find . -type f -name "*.gif" | rev | cut -d '/' -f 1 | rev | sort  
