@@ -14,3 +14,4 @@ Script 12 prints all possible combinations of two letters, oo was removed
 script 13 prints a number with two decimal places
 Script 14 converts a number from base 10 to 16
 script 15 decodes rot13!
+Script 16 prints odd eggs oups odd lines
