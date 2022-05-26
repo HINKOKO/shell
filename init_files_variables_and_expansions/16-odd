@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -pe 'print if $.%2'
+paste - - | cut -f1
