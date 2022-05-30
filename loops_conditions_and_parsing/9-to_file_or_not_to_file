@@ -12,9 +12,8 @@ if [ -e "$file" ]; then
 	else 
 		echo "$file file is empty"
 	
-	fi
 	
-	if [ -f "$file" ]; then 
+	elif [ -f "$file" ]; then 
 		
 		echo "$file file is a regular file"
 	
