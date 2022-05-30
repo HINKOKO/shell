@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+#Script parse and display the visitor IP with the http status code from a Apache log file, output an ordered display, from greatest to the lowest number of occurences
+file="apache-access.log"
+awk '{print $1,$9}' "$file" | sort | uniq -c | sort -nr | awk '!($1="")' 
