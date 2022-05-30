@@ -1,8 +1,8 @@
 #!/usr/bin/env bash	
 # this script do the same as script 1,but using while loop
-i="0"
-while [ $i -lt 10 ]
+i=0
+while (( i < 10 ))
 do 
 	echo "Best School";
-	i=$(( i++ ));
+	(( i++ ));
 done
