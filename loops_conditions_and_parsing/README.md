@@ -7,3 +7,4 @@ Script 4 display "Best school" 10 times but add "Hi" on a new line at the 9th it
 Script 6 displays numbers from 1 to 20 and precise bad luck for the superstitious number 4,9, 17
 Script 7 displays the time for 12 hours and 59 minutes
 Script 8 lists content of current directory, without the first part before the - character
+Script 9 gives information about a file
