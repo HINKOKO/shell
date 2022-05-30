@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#this script displays "Best School" 'UNTIL' 10 displays are reached  
 i=0
 until (( i == 10 ))
 do 
