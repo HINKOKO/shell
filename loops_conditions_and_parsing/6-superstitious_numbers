@@ -1,4 +1,5 @@
 #!/usr/bin/env bash 
+#This script displays numbers from 1 to 10 with a special mention for superstitious numbers in China, Japan and Italy
 i="1"
 while [ $i -le 20 ]
 do 
