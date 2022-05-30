@@ -1,16 +1,16 @@
 #!/usr/bin/env bash 
 #Script gives information about "school" file
-file=school
+file="school"
 
 if [ -e "$file" ]; then
 	echo "$file file exists"
 	
 	if [ !-s "$file" ]; then 
 		
-		echo "$file file is not empty"
+		echo "$file file is empty"
 	
 	else 
-		echo "$file file is empty"
+		echo "$file file is not empty"
 	
 	fi
 	
