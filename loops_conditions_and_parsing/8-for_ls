@@ -1,7 +1,6 @@
 #!/usr/bin/env bash 
 # this script lists content of current directory without initial part (*-) in filenames
-files="$(ls)"
-for f in $files
+for f in $(ls)
 do 
 	echo "$f" | cut -d '-' -f2 
 done
