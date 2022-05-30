@@ -11,3 +11,4 @@ Script 9 gives information about a file
  Script 10 display number from 1 to 100 with special mentions for multiple of 3,5 and 15
 Script 11 displays the content of file /etc/passwd , only fiels 1,3,6 username, user id, and home directory path for the user; using while read
 Script 12 tell the story of the /etc/passwd in a funny way, using while read and IFS
+Script 13 do a simple parsing of Apache log access files, displaying visitor IP along with the HTTP status code
