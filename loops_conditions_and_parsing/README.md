@@ -8,3 +8,4 @@ Script 6 displays numbers from 1 to 20 and precise bad luck for the superstitiou
 Script 7 displays the time for 12 hours and 59 minutes
 Script 8 lists content of current directory, without the first part before the - character
 Script 9 gives information about a file
+ Script 10 display number from 1 to 100 with special mentions for multiple of 3,5 and 15
