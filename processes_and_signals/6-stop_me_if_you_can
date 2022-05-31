@@ -1,4 +1,4 @@
 #!/usr/bin/env bash 
 #Script 6 do the same work as script 5 but in an easier way using the command pkill and option -f for maching name "   " 
 
-pkill -c -f "4-to_infinity_and_beyond"
+pgrep -15 -f "4-to_infinity_and_beyond"
