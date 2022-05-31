@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+# Script kill the infinite loop process of '4-to_infinity_and_beyond' using kill command 
+
+kill "$(pgrep -f "4-to_infinity_and_beyond")" 
