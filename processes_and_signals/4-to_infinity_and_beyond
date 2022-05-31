@@ -1,0 +1,8 @@
+#!/usr/bin/env bash 
+# Script display > To infinity and beyond < indefinitely,  with a sleep between each iteration 
+
+while :
+	do 
+		echo 'To infinity and beyond'
+		sleep 2
+	done
