@@ -1,13 +1,11 @@
 #!/usr/bin/env bash 
 # Script display > To infinity and beyond < indefinitely,  with a sleep between each iteration, when the command kill occurs, it ignores it and print a message instead with the trap command 
 
-invictus()
+pikachu()
 {
-	echo "I am invincible!!!"
-
-}
-
-trap invictus SIGTERM
+	echo 'I am invincible !!!' 
+      }
+trap pikachu SIGTERM 
 
 while true 
 	do 
