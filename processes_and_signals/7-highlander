@@ -1,15 +1,15 @@
 #!/usr/bin/env bash 
 # Script display > To infinity and beyond < indefinitely,  with a sleep between each iteration, when the command kill occurs, it ignores it and print a message instead with the trap command 
 
-invincible() 
+msg()
 {
 	echo "I am invincible!!!"
-exit
+
 }
 
-trap "invincible" SIGTERM
+trap "msg" SIGTERM
 
-while true :
+while true 
 	do 
 		echo 'To infinity and beyond'
 		sleep 2
