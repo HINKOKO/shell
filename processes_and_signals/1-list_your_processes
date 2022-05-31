@@ -1,4 +1,4 @@
 #!/usr/bin/env bash 
-# Script displays a list of currently running processes, with option a for all users, option u stands for a user-oriented format, and x tells ps to the processes without a controlling terminal 
+# Script displays a list of currently running processes, with option a for all users, option u stands for a user-oriented format, and x tells ps to the processes without a controlling terminal, and f option tells ps to display a kind of tree view, from parent to child processes
 
-ps aux  
+ps auxf  
