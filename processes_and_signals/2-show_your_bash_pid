@@ -1,0 +1,5 @@
+#!/usr/bin/env bash 
+#Script 2 give the same result as script 1, but display only lines containing the word'bash' - the shellcheck disabling is for ignoring suggestion to use pgrep
+# shellcheck disable=SC2009
+
+ps auxf | grep "bash"
