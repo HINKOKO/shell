@@ -5,7 +5,7 @@ if [ -e $FILE ];
 then 
 	echo "school file exists"
 	
-	if [ -s $FILE ];
+	if [ ! -s $FILE ];
 	then 
 		echo "$FILE file is empty"
 	else 
