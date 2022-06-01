@@ -1,16 +1,19 @@
 #!/usr/bin/env bash 
 #crazy init script
 
+arg="$1"
+File="/var/run/my_process.pid"
+
 starting()
 {
 	./manage_my_process &
-	echo "$!" > "/var/run/my_process.pid"
+	echo "$!" > "$File"
 }
 
 killing()
 {
 	sudo pkill -f "manage_my_process"
-	rm -f /var/run/my_process.pid
+	rm "$File"
 }
 
 
@@ -27,6 +30,6 @@ case $1 in
 	   killing
    	   starting ;;
 
-   *) echo "usage {start|stop|restart}"
+   *) echo "Usage: manage_my_process {start|stop|restart}"
       ;;
 esac
