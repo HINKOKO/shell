@@ -2,21 +2,18 @@
 #Script gives information about "school" file
 
 if [ -e "school" ]
-	then
-		echo "school file exists"
+   then
+	echo "school file exists"
 	
-		if [ -s "school" ]
-	       	then 
-		
+	if [ -s "school" ]
+	   then 
 		echo "school file is not empty"
-	
-		else 
+	else 
 		echo "school file is empty"
-		
-fi 
+	fi 
 
-if [ -f "school" ]
-       	then 
+	if [ -f "school" ]
+           then 
 		echo "school file is a regular file"
 	
 	fi 
