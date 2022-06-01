@@ -8,4 +8,6 @@ Script 6 kill the infinite process of script 4 in an easier way than script 5 us
 script 67 is used to kill and test the message from script 7
 Script 7 is the infinite loop of script 4 but use the trap command to ignore the kill command and print a message instead
 Script 8 kills the highlander script, using the kill command and -9 (kill a process)
- script 10 creates and > redirect the ouput of echo $$ (PID) in the file. trap SIGINT (^C) signal and display Y U no love me?! trap SIGTERM signal and display I hate the kill command, deletes the file when it traps SIGTERM and SIGQUIT signal
+Script 9 creates and > redirect the ouput of echo $$ (PID) in the file. trap SIGINT (^C) signal and display Y U no love me?! trap SIGTERM signal and display I hate the kill command, deletes the file when it traps SIGTERM and SIGQUIT signal
+Script *"manage my process" creates an infinite loop who writes 'I am alive!' to the file /tmp:my_process* as to be used with init.script 11
+Script 11 (init script) manages 'manage_my_process' (previous one in this README.md) with usage {start|stop|restart} 

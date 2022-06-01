@@ -1,0 +1,32 @@
+#!/usr/bin/env bash 
+#crazy init script
+
+starting()
+{
+	./manage_my_process &
+	echo "$!" > "/var/run/my_process.pid"
+}
+
+killing()
+{
+	sudo pkill -f "manage_my_process"
+	rm -f /var/run/my_process.pid
+}
+
+
+case $1 in
+
+   start) 
+	echo "manage_my_process started"
+	starting ;;
+   stop) 
+	echo "manage_my_process stopped"
+	killing ;;
+
+   restart) echo "manage_my_process restarted"
+	   killing
+   	   starting ;;
+
+   *) echo "usage {start|stop|restart}"
+      ;;
+esac
