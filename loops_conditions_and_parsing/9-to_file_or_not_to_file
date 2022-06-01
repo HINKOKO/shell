@@ -12,7 +12,7 @@ if [ -e "school" ]
 	
 		else 
 		echo "school file is empty"
-	
+		
 fi 
 
 if [ -f "school" ]
