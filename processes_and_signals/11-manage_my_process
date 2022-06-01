@@ -17,7 +17,7 @@ killing()
 }
 
 
-case $1 in
+case "$arg" in
 
    start) 
 	echo "manage_my_process started"
