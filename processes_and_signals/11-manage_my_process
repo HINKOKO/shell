@@ -1,7 +1,6 @@
 #!/usr/bin/env bash 
 #crazy init script
 
-arg="$1"
 File="/var/run/my_process.pid"
 
 starting()
@@ -17,7 +16,7 @@ killing()
 }
 
 
-case "$arg" in
+case "$1" in
 
    start) 
 	echo "manage_my_process started"
