@@ -11,7 +11,7 @@ starting()
 
 killing()
 {
-	kill "$(cat $FILE)"
+	kill "$(cat "$File")"
 	rm "$File"
 }
 
